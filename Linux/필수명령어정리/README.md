@@ -40,17 +40,17 @@
 
 ```bash
 ~$ find . -type f -name "*.txt"   # 현재 경로(.) 부터 시작해서 
-								  # 데이터 타입은 file 인데 
-								  # 이름은 .txt로 끝나는 데이터를 찾아라 
+				  # 데이터 타입은 file 인데 
+				  # 이름은 .txt로 끝나는 데이터를 찾아라 
 								  
 ~$ find . -type d -name "*2"   # 현재 경로(.) 부터 시작해서 
-							   # 데이터 타입은 directory 인데 
-							   # 이름은 '2' 로 끝나는 데이터를 찾아라 								  
+			       # 데이터 타입은 directory 인데 
+			       # 이름은 '2' 로 끝나는 데이터를 찾아라 								  
 ```
 
 ```bash 
 ~$ which        # 내가 실행하려는 프로그램이 어디에 설정되어 있는지 경로 확인 
-				# 즉, 특정 명령어의 위치를 찾아줌 
+	        # 즉, 특정 명령어의 위치를 찾아줌 
 				
 ~$ which find   # find 라는 명령어가 어느 경로에 설정돼 있는지 찾아줌 		
 
@@ -62,12 +62,12 @@
 
 ```bash
 ~$ touch test.txt    # test.txt 라는 file 이 없다면 생성 
-					 # 이미 있다면 해당 파일의 수정 날짜를 touch 한 시점으로 업데이트 			 
+		     # 이미 있다면 해당 파일의 수정 날짜를 touch 한 시점으로 업데이트 			 
 ```
 
 ```bash 
 ~$ cat test.txt      # concatenate and print files 
-					 # text.txt 파일의 내용물을 프린트 
+		     # text.txt 파일의 내용물을 프린트 
 
 ~$ cat text1.txt text2.txt   # text1.txt 와 text2.txt의 내용을 연결시켜서 프린트 
 ```
@@ -79,7 +79,7 @@
  
  # Echo 활용 
  ~$ echo "hello world" > new_file.txt  # "hello world" 문자열을 
- 									  # new_file.txt 덮어써서 입력 (기존 내용 지워짐)
+ 				       # new_file.txt 덮어써서 입력 (기존 내용 지워짐)
  
  ~$ echo "hello world" >> new_file.txt # 기존 내용 밑에다가 덧붙임 (extend)
  ```
@@ -89,31 +89,31 @@
 
 
 ~$ mkdir -p dir4/subdir1/subdir2   # subdir2 디렉토리를 생성하는데 
-								  # 중간중간 해당 부모경로(parents)에 해당 디렉토리가 없으면 
-								  # 자동으로 만들어서 subdir2 생성						  
+				   # 중간중간 해당 부모경로(parents)에 해당 디렉토리가 없으면 
+				   # 자동으로 만들어서 subdir2 생성						  
 ```
 
 
 
 ```bash 
 ~$ cp file1.txt ./dir1      # copy 
-							# file1.txt 파일을 
-							# ./dir1 로 복사 (ctrl + c  & ctrl + v)
+			    # file1.txt 파일을 
+			    # ./dir1 로 복사 (ctrl + c  & ctrl + v)
 
 ~$ mv file1.txt ./dir1      # move 
-							# file1.txt 파일을 
-							# ./dir1 로 이동 (ctrl + x & ctrl + v)
+			    # file1.txt 파일을 
+			    # ./dir1 로 이동 (ctrl + x & ctrl + v)
 
 ~$ mv file1.txt file2.txt   # file1.txt 파일을 file2.txt 파일로 이동 
-							# 즉, 이름 바꾸기 
+			    # 즉, 이름 바꾸기 
 ```
 
 ```bash 
 ~$ rm file1.txt  # remove 
-				 # file1.txt 파일 삭제 
+		 # file1.txt 파일 삭제 
                                 
 ~$ rm -rf ./dir2  # recursive & force (재귀적이고 강제적으로)            
-				  # ./dir2 디렉토리 하위 경로를 포함해서 삭제 
+		  # ./dir2 디렉토리 하위 경로를 포함해서 삭제 
 ```
 
 ```bash 
