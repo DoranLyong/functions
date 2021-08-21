@@ -1,3 +1,5 @@
+
+
 # CUI 필수 명렁어 정리  
 
 ### [Manual](https://youtu.be/EL6AQl-e3AQ?t=274) (사용자 메뉴얼) 
@@ -93,8 +95,6 @@
 				   # 자동으로 만들어서 subdir2 생성						  
 ```
 
-
-
 ```bash 
 ~$ cp file1.txt ./dir1      # copy 
 			    # file1.txt 파일을 
@@ -118,7 +118,67 @@
 
 ```bash 
 ~$ grep        # global regular expression print 
+			   # 정규 표현식으로 된 키워드 검색기능 
+
+~$ grep "world" *.txt    # "world" 키워드를  
+						 #  *.txt 파일을 대상으로 찾아라 
+						 # "world" 키워드가 있는 모든 *.txt 파일이 반환됨 
+
+~$ grep -n "world" *.txt    # -n (number line)
+							# "world" 키워드가 해당 파일의 몇 번째 줄에 있는지 표시
+
+
+~$ grep -i "world" *.txt  # -i (insensitive)
+						  # "world" 키워드에 대소문자 구분 없이 찾아라 
+
+~$ grep -nir "world" .  # -r (recursive)
+						# 현재 경로(.)를 시작으로 재귀적으로(recursive)
+						# "world" 키워드가 있는 하위 경로까지 다 찾아라
+						# -nir 만 기억하자. 
 ```
+
+
+
+[데이터 권한 변경](https://youtu.be/9_KIdQ8abH4?t=248) 
+
+```bash
+~$ chmod     # change mode 
+			 # 해당 데이터의 권한 변경 
+```
+
+
+
+[링크(link)](https://youtu.be/9_KIdQ8abH4) - hard / soft(symbolic) link 
+
+```bash 
+~$ ln       # link 
+```
+
+
+
+### [Work with environment variables](https://youtu.be/EL6AQl-e3AQ?t=1252) (환경 변수 설정하기)
+
+환경 변수 :
+
+* 내 컴퓨터에서 특정 키워드가 어떠한 기능(function)을 하거나 
+* 경로를 저장할 수 있도록(*e.g.*, ```$HOME``` ) 만듬
+* 환경 변수는 보통 ```대문자```로 만든다
+
+```bash
+~$ export MY_DIR="dir1"      # 환경 변수를 생성하는 명령어 
+							 # 환경 변수 MY_DIR 의 값으로 "dir1" 을 할당 
+							 
+~$ unset MY_DIR     # 지정한 환경 변수 삭제
+
+# 환경 변수 활용
+~$ cd $MY_DIR     # ~$ cd dir1 와 동일하게 됨  
+```
+
+```bash
+~$ env      # 내 컴퓨터에 설정된 모든 환경 변수 출력 
+```
+
+
 
 
 
@@ -136,4 +196,7 @@
 
 ### Reference 
 
-[1] [필수 리눅스 터미널 명렁어 정리 | 배쉬, 파워쉘 (Bash, PowerShell)튜토리얼! 가좌아, youtube](https://youtu.be/EL6AQl-e3AQ) / 
+[1] [필수 리눅스 터미널 명렁어 정리 | 배쉬, 파워쉘 (Bash, PowerShell)튜토리얼! 가좌아, youtube](https://youtu.be/EL6AQl-e3AQ) / <br/>
+[2] [리눅스 명령어 모음 | 초중급 개발자를 위한 기본 명령어 강좌, youtube](https://youtu.be/9_KIdQ8abH4) / <br/>
+[3] [POSIX CLI1, 생활코딩](https://youtube.com/playlist?list=PLuHgQVnccGMBYk9U5yU6fljdZTPPRBy4n) / 
+
