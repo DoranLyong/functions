@@ -198,5 +198,6 @@
 
 [1] [필수 리눅스 터미널 명렁어 정리 | 배쉬, 파워쉘 (Bash, PowerShell)튜토리얼! 가좌아, youtube](https://youtu.be/EL6AQl-e3AQ) / <br/>
 [2] [리눅스 명령어 모음 | 초중급 개발자를 위한 기본 명령어 강좌, youtube](https://youtu.be/9_KIdQ8abH4) / <br/>
-[3] [POSIX CLI1, 생활코딩](https://youtube.com/playlist?list=PLuHgQVnccGMBYk9U5yU6fljdZTPPRBy4n) / 
+[3] [POSIX CLI1, 생활코딩](https://youtube.com/playlist?list=PLuHgQVnccGMBYk9U5yU6fljdZTPPRBy4n) / <br/>
+[4] [리눅스 파일 시스템과 윈도우 파일 시스템의 비교, youtube](https://youtu.be/hZ6j_g_O3Ts?t=347) / <br/>
 
