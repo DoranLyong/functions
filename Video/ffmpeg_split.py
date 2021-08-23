@@ -7,7 +7,11 @@ import pandas as pd
 import subprocess   # (ref) https://wikidocs.net/14350
                     # (ref) https://newsight.tistory.com/354
 
+""" Usage 
+    ~$ sudo apt install ffmpeg
+    ~$ python ffmpeg_split.py
 
+"""
 
 
 
