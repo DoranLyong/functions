@@ -200,4 +200,5 @@
 [2] [리눅스 명령어 모음 | 초중급 개발자를 위한 기본 명령어 강좌, youtube](https://youtu.be/9_KIdQ8abH4) / <br/>
 [3] [POSIX CLI1, 생활코딩](https://youtube.com/playlist?list=PLuHgQVnccGMBYk9U5yU6fljdZTPPRBy4n) / <br/>
 [4] [리눅스 파일 시스템과 윈도우 파일 시스템의 비교, youtube](https://youtu.be/hZ6j_g_O3Ts?t=347) / <br/>
+[5] [238smmit, github](https://github.com/237summit/linux) / <br/>
 
